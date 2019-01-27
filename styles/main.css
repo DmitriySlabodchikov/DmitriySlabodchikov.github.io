@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "pixel";
+	src: url("../fonts/pixel.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} 
+
+body{
+	background-image: url(../images/background.jpg); /* Путь к фоновому рисунку */
+	background-repeat: repeat; /* Повторяем фон */
+	padding: 20px 5%;
+	font-family: pixel;
+	height: 100%;
+	width:1020px;
+	margin: 0 auto;
+}
+
+html { 
+	position:relative; 
+	min-height:100%;
+}
+
+footer{
+	text-align: center;
+	height: 20px; 
+	background: #f7f7f7;
+	position: absolute;
+	bottom: 0;
+	width: 1040px;
+}
+
+#station{
+
+}
+
+.parts{
+	background: white;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.resources{
+	font-size: 25px;
+	padding: 10px;
+	width: 180px;
+	float: right;
+	background: white;
+}
+
+.resources img{
+	height: 20px;
+	float: right;
+}
+
+.resources p{
+	margin: 0px;
+}
+
+.divTable{
+	border: 1px solid white;
+	float: left;
+	display: table;
+	width: 800px;
+	background: rgba(153,153,153,0.2);
+}
+
+.divTableRow {
+	display: table-row;
+	height: 100px;
+}
+
+.divTableCell {
+	border: 1px solid white;
+	display: table-cell;
+	cursor: pointer;
+}
+
+.divTableCell.selected {
+	background: rgba(153,153,153,0.7);
+}
+
+.divTableCell:hover {
+	background: rgba(153,153,153,0.3);
+}
+
+.divTableBody {
+	display: table-row-group;
+}
