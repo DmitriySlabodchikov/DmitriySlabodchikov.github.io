@@ -64,4 +64,5 @@ function setValues(){
 	document.getElementById("research").innerHTML = resources.research;
 	document.getElementById("money").innerHTML = resources.money;
 	document.getElementById("people").innerHTML = resources.people;
+	document.getElementById("energy").innerHTML = resources.energy;
 }

@@ -43,7 +43,6 @@ footer{
 }
 
 .resources{
-	line-height: 25px;
 	padding: 10px;
 	width: 200px;
 	float: right;
@@ -56,6 +55,8 @@ footer{
 }
 
 .resources p{
+	font-size: 15px;
+	line-height: 25px;
 	margin: 0px;
 }
 
