@@ -45,7 +45,7 @@ footer{
 .resources{
 	line-height: 25px;
 	padding: 10px;
-	width: 205px;
+	width: 200px;
 	float: right;
 	background: white;
 }
@@ -63,13 +63,13 @@ footer{
 	border: 1px solid white;
 	float: left;
 	display: table;
-	width: 450px;
+	width: 460px;
 	background: rgba(153,153,153,0.2);
 }
 
 .divTableRow {
 	display: table-row;
-	height: 90px;
+	height: 92px;
 }
 
 .divTableCell {
