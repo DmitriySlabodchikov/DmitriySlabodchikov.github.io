@@ -43,9 +43,6 @@ footer{
 }
 
 .resources{
-	padding: 10px;
-	width: 200px;
-	float: right;
 	background: white;
 }
 
@@ -58,6 +55,19 @@ footer{
 	font-size: 15px;
 	line-height: 25px;
 	margin: 0px;
+}
+
+.planets, .resources{
+	padding: 10px;
+	float: right;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+#activePlanet{
+	text-align: center;
+	background: white;
+	padding: 5px 0px;
 }
 
 .divTable{
