@@ -11,7 +11,7 @@ body{
 	padding: 20px 5%;
 	font-family: pixel;
 	height: 100%;
-	width:1020px;
+	width:700px;
 	margin: 0 auto;
 }
 
@@ -26,8 +26,13 @@ footer{
 	background: #f7f7f7;
 	position: absolute;
 	bottom: 0;
-	width: 1040px;
+	width: 700px;
 }
+
+.resources span{
+	padding-left: 10px;
+}
+
 
 #station{
 
@@ -42,7 +47,7 @@ footer{
 .resources{
 	font-size: 25px;
 	padding: 10px;
-	width: 180px;
+	width: 205px;
 	float: right;
 	background: white;
 }
@@ -60,13 +65,13 @@ footer{
 	border: 1px solid white;
 	float: left;
 	display: table;
-	width: 800px;
+	width: 450px;
 	background: rgba(153,153,153,0.2);
 }
 
 .divTableRow {
 	display: table-row;
-	height: 100px;
+	height: 90px;
 }
 
 .divTableCell {
