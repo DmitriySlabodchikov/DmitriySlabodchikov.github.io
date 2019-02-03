@@ -14,5 +14,6 @@ export let resources = {
 
 export let events = {
 	lastGift:0,
-	lastRandom:0
+	lastRandom:0,
+	planet:"earth"
 };

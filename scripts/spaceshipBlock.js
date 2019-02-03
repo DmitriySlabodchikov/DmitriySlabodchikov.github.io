@@ -1,4 +1,4 @@
-const blocks = document.querySelectorAll(".divTableCell");
+const blocks = document.querySelectorAll(".shipParts");
 blocks.forEach(function(item){
 	item.addEventListener("click", select, false);
 });

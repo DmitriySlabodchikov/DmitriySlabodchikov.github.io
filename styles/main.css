@@ -83,17 +83,32 @@ footer{
 	height: 92px;
 }
 
-.divTableCell {
+.shipParts {
 	border: 1px solid white;
 	display: table-cell;
 	cursor: pointer;
 }
 
-.divTableCell.selected {
+.rotated {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.cosmonaut:before{
+	content:url(../images/cosmonaut.png);
+	position:relative;
+	left:37px;
+	top:45px;
+}
+
+.shipParts.selected {
 	background: rgba(153,153,153,0.7);
 }
 
-.divTableCell:hover {
+.shipParts:hover {
 	background: rgba(153,153,153,0.3);
 }
 
