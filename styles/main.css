@@ -38,7 +38,7 @@ footer{
 
 .parts{
 	background: white;
-	padding: 10px;
+	padding: 20px 10px 10px 10px;
 	margin-bottom: 25px;
 }
 
@@ -114,4 +114,46 @@ footer{
 
 .divTableBody {
 	display: table-row-group;
+}
+
+.build {
+	background-color:#44c767;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	padding:11px 20px;
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+
+.build:hover {
+	background-color:#5cbf2a;
+}
+
+.build:active {
+	position:relative;
+	top:1px;
+}
+
+.build.danger{
+	background-color: #ff6666;
+	border-color: #ff4d4d;
+}
+
+.build.danger:hover {
+	background-color: #ff3333;
+}
+
+.build.upgrade{
+	background-color: #2a78b2;
+	border-color: #1b67a1;
+}
+
+.build.upgrade:hover {
+	background-color: #1d588d;
 }
