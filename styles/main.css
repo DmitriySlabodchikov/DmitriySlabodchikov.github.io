@@ -97,6 +97,10 @@ footer{
 	transform: rotate(90deg);
 }
 
+.shipParts div{
+	position: absolute;
+}
+
 .cosmonaut:before{
 	content:url(../images/cosmonaut.png);
 	position:relative;

@@ -6,6 +6,23 @@ let spaceship = defaults.spaceship,
 
 loadGame();
 
+imitateLoad();
+
+function imitateLoad(){
+	const parts = document.getElementsByClassName("shipParts");
+
+	parts[1].style["background-image"] = "url(images/parts/s4.png)"
+	parts[3].style["background-image"] = "url(images/parts/s4.png)"
+	parts[6].style["background-image"] = "url(images/parts/f4.png)"
+	parts[6].firstChild.classList.add("cosmonaut");
+	parts[7].style["background-image"] = "url(images/parts/f4.png)"
+	parts[8].style["background-image"] = "url(images/parts/e4.png)"
+	parts[8].firstChild.classList.add("cosmonaut");
+	parts[9].style["background-image"] = "url(images/parts/s4.png)"
+	parts[9].classList.add("rotated");
+	parts[13].style["background-image"] = "url(images/parts/s4.png)"
+}
+
 function loadGame(){
 	const urlString = window.location.href;
 	const url = new URL(urlString);
@@ -65,4 +82,6 @@ function setValues(){
 	document.getElementById("money").innerHTML = resources.money;
 	document.getElementById("people").innerHTML = resources.people;
 	document.getElementById("energy").innerHTML = resources.energy;
+	if(events.planet != "earth")
+		document.getElementById("energy")
 }
